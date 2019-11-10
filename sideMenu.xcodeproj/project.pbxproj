@@ -22,6 +22,7 @@
 		527D1D24236C889900D664C1 /* PDFVocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D1D23236C889900D664C1 /* PDFVocabularyViewController.swift */; };
 		527D1D26236C891600D664C1 /* N3-script.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 527D1D25236C891600D664C1 /* N3-script.pdf */; };
 		527D1D28236C8ADA00D664C1 /* PDFAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D1D27236C8ADA00D664C1 /* PDFAnswerViewController.swift */; };
+		527D1D2B236DA8B200D664C1 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D1D2A236DA8B200D664C1 /* UserProfileViewController.swift */; };
 		52CEAFC92337C43A008F2A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEAFC82337C43A008F2A62 /* AppDelegate.swift */; };
 		52CEAFCB2337C43A008F2A62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEAFCA2337C43A008F2A62 /* ViewController.swift */; };
 		52CEAFCE2337C43A008F2A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CEAFCC2337C43A008F2A62 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		527D1D23236C889900D664C1 /* PDFVocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFVocabularyViewController.swift; sourceTree = "<group>"; };
 		527D1D25236C891600D664C1 /* N3-script.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "N3-script.pdf"; sourceTree = "<group>"; };
 		527D1D27236C8ADA00D664C1 /* PDFAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAnswerViewController.swift; sourceTree = "<group>"; };
+		527D1D2A236DA8B200D664C1 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		52CEAFC52337C43A008F2A62 /* sideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CEAFC82337C43A008F2A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CEAFCA2337C43A008F2A62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				52CEAFCA2337C43A008F2A62 /* ViewController.swift */,
 				52CEAFDC2337C8AD008F2A62 /* SideMenuVC.swift */,
+				527D1D2A236DA8B200D664C1 /* UserProfileViewController.swift */,
 				52CEAFDA2337C864008F2A62 /* ContainerVC.swift */,
 				525B7DD32337E2C40073487B /* PDFViewController.swift */,
 				527D1D27236C8ADA00D664C1 /* PDFAnswerViewController.swift */,
@@ -96,6 +99,13 @@
 				5273AC94233D328F0023C212 /* SettingsController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		527D1D2C236DB22800D664C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		52CEAFBC2337C43A008F2A62 = {
@@ -119,6 +129,7 @@
 		52CEAFC72337C43A008F2A62 /* sideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				527D1D2C236DB22800D664C1 /* Model */,
 				527D1D29236C8D0700D664C1 /* Controllers */,
 				52E1F9EC233A887300378FAF /* sideMenu.entitlements */,
 				52CEAFC82337C43A008F2A62 /* AppDelegate.swift */,
@@ -298,6 +309,7 @@
 				525B7DD42337E2C40073487B /* PDFViewController.swift in Sources */,
 				5273AC95233D328F0023C212 /* SettingsController.swift in Sources */,
 				52744D652338FDC300AE0BA8 /* ListeningController.swift in Sources */,
+				527D1D2B236DA8B200D664C1 /* UserProfileViewController.swift in Sources */,
 				52CEAFDD2337C8AD008F2A62 /* SideMenuVC.swift in Sources */,
 				527D1D28236C8ADA00D664C1 /* PDFAnswerViewController.swift in Sources */,
 				527D1D24236C889900D664C1 /* PDFVocabularyViewController.swift in Sources */,

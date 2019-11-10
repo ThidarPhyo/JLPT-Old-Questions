@@ -35,7 +35,7 @@ class ContainerVC: UIViewController {
         } else {
             //navigationItem.leftBarButtonItem?.image = UIImage(named: "close")
             sideMenuOpen = true
-            sideMenuConstraint.constant = 12
+            sideMenuConstraint.constant = 0
              //
         }
 //        UIView.animate(

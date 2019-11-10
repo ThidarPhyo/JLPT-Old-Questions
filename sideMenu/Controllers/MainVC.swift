@@ -38,8 +38,26 @@ class MainVC: UIViewController {
 //                                               selector: #selector(showSignIn),
 //                                               name: NSNotification.Name("ShowSignIn"),
 //                                               object: nil)
+        let button: UIButton = UIButton(type: UIButton.ButtonType.custom) as! UIButton
+        button.setImage(UIImage(named: "icon_setting"), for: UIControl.State.normal)
+        button.addTarget(self, action: #selector(handleSettings), for: UIControl.Event.touchUpInside)
+        button.frame = CGRect(x: 0, y: 0, width: 53, height: 31)
+        let barButton = UIBarButtonItem(customView: button)
+        self.navigationItem.rightBarButtonItem = barButton
         
     }
+    @objc func handleSettings() {
+            let alert = UIAlertController(title: "About Us", message: "Developed by Thidar Phyo", preferredStyle: .alert)
+    //        alert.view.subviews.first?.subviews.first?.subviews.first?.backgroundColor = UIColor.yellow
+    //        alert.view.tintColor = .white
+            let passAction = UIAlertAction(title: "Dismiss", style: .default) { (_) in
+               
+            }
+            //let destriveAction = UIAlertAction(title: "Destory", style: .destructive, handler: nil)
+            alert.addAction(passAction)
+            //actionSheet.addAction(destriveAction)
+            present(alert, animated: true, completion: nil)
+        }
     
     @objc func showProfile() {
         performSegue(withIdentifier: "ShowProfile", sender: nil)
